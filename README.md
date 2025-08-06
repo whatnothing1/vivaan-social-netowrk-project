@@ -1,4 +1,4 @@
-# Vivaan-social-netowrk-project
+# Vivaan Social Network Project
 
 **Soical Netowrk App**  
 _Create a Website for Cameron that meets his needs._
@@ -31,3 +31,28 @@ This will allow a website with a primary focus.
 - **Easy to use**
 - **Safe and respectful environment**
 - **Backed up data**
+
+# UI Design Plan
+
+## Wireframe Sketch
+
+Here is the basic layout of my app (sketched by hand):
+
+**Home page:**  
+![Wireframe Sketch](images/wireframe1.png)
+
+**Posting Page:**  
+![Wireframe Sketch](images/wireframe2.png)
+
+**Deep dive into posts:**  
+![Wireframe Sketch](images/wireframe3.png)
+
+## Themes and Formatting
+
+## Design Choices
+
+| Element         | Choice                                                                 |
+|----------------|------------------------------------------------------------------------|
+| Colour Palette | Black, white, red – sporty and high contrast, matches NBA theme        |
+| Typography     | Oswald for headings, Roboto for body – clean and easy to read          |
+| Images/Icons   | NBA players, logos, court backgrounds. Font Awesome for like/share icons |
