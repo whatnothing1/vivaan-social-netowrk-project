@@ -56,3 +56,27 @@ Here is the basic layout of my app (sketched by hand):
 | Colour Palette | Black, white, red – sporty and high contrast, matches NBA theme        |
 | Typography     | Oswald for headings, Roboto for body – clean and easy to read          |
 | Images/Icons   | NBA players, logos, court backgrounds. Font Awesome for like/share icons |
+
+![Figma Wireframe](images/figmawire1.png)
+
+## Algorithms - Login Page
+
+1. User opens the login page.
+2. User enters username and password.
+3. System checks if username exists in the database.
+   - If NO → Display "User not found" message and stop.
+4. If YES → Retrieve stored password for that username.
+5. Compare entered password with stored password.
+   - If match → Create session token and log user in.  
+     Redirect to dashboard/home page.
+   - If no match → Display "Incorrect password" message and stop.  
+END
+
+## Test Cases
+
+| Test Case  | Feature Tested | Preconditions | Steps | Expected Result |
+|--------------|---------------|---------------|-------|-----------------|
+| Test 1 | Login with correct credentials | User account exists | 1. Go to login page<br>2. Enter correct username/password<br>3. Click "Login" | Redirect to dashboard |
+| Test 2 | Login with wrong password | User account exists | 1. Go to login page<br>2. Enter correct username/wrong password<br>3. Click "Login" | Display "Incorrect password" |
+
+![Login Flowchart](images/flowchart1.png)
