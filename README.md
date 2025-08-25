@@ -79,4 +79,8 @@ END
 | Test 1 | Login with correct credentials | User account exists | 1. Go to login page<br>2. Enter correct username/password<br>3. Click "Login" | Redirect to dashboard |
 | Test 2 | Login with wrong password | User account exists | 1. Go to login page<br>2. Enter correct username/wrong password<br>3. Click "Login" | Display "Incorrect password" |
 
-![Login Flowchart](images/flowchart1.png)
+<img src="images/flowchart3.png" alt="Login Flowchart" width="800"/>
+
+
+Week 5- SQL and Queries
+This week, I created mock data and successfully imported it into VS Code using SQLite. I then wrote and tested several SQL queries on the dataset, which allowed me to retrieve and analyze useful information. Through this process, I learned how to manage data in a database environment and gained insights into how queries can be used to answer specific questions.
