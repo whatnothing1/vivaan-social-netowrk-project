@@ -84,3 +84,6 @@ END
 
 Week 5- SQL and Queries
 This week, I created mock data and successfully imported it into VS Code using SQLite. I then wrote and tested several SQL queries on the dataset, which allowed me to retrieve and analyze useful information. Through this process, I learned how to manage data in a database environment and gained insights into how queries can be used to answer specific questions.
+
+Week 6-7 Making webpages and styling
+This week, I created the homepage for the website and applied basic styling using HTML and CSS. The homepage layout was set up to match the planned design, and I experimented with colors and fonts to fit the NBA theme. This was my first step in building the user interface for the project.
